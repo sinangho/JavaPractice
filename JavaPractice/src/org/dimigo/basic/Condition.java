@@ -3,11 +3,11 @@ package org.dimigo.basic;
 public class Condition {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int dis = 10;
 		int CarType = 3; // 고속버스:1 경차:2 그 외:3
 		int Total_fee = 0;
-		int fee = ((dis-1) / 10);		
+		int fee = ((dis-1) / 10);	
+//		Math.ceil(dis/10);
 		String Car = "";
 		
 		if(CarType == 1){
