@@ -7,60 +7,38 @@ public class Car {
     private String color;
     private int maxSpeed;
     private int price;
-
-    public String getCompany() {
-        
-        return company;
-    }
-
-    public String getModel() {
-        // TODO implement here
-        return model;
-    }
-
-    public String getColor() {
-        // TODO implement here
-        return color;
-    }
     
-    public int getMaxSpeed() {
-        // TODO implement here
-        return maxSpeed;
-    }
-
-    public int getPrice() {
-        // TODO implement here
-        return price;
-    }
-
-    
-    public void setCompany(String newcompany) {
-        // TODO implement here
-    	company = newcompany;
-    }
-
-   
-    public void setModel(String newmodel) {
-        // TODO implement here
-        model = newmodel;
-    }
+	public String getCompany() {
+		return company;
+	}
+	public void setCompany(String company) {
+		this.company = company;
+	}
+	public String getModel() {
+		return model;
+	}
+	public void setModel(String model) {
+		this.model = model;
+	}
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+	public int getMaxSpeed() {
+		return maxSpeed;
+	}
+	public void setMaxSpeed(int maxSpeed) {
+		this.maxSpeed = maxSpeed;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
 
     
-    public void setColor(String newcolor) {
-        // TODO implement here
-        color = newcolor;
-    }
-
-    
-    public void setMaxSpeed(int newmaxSpeed) {
-        // TODO implement here
-        maxSpeed = newmaxSpeed;
-    }
-
-    
-    public void setPrice(int newprice) {
-        // TODO implement here
-        price = newprice;
-    }
 
 }

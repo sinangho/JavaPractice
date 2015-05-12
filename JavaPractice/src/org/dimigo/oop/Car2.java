@@ -12,16 +12,21 @@ public class Car2 {
 	    	// 기본 생성자 --> 아무것도 안넘겨줄때를 위해
 	    }
 	    
-	    public Car2(String newCompany, String newmodel, String newColor, int newMaxSpeed, int newPrice){
-	    	company = newCompany;
-	    	model = newmodel;
-	    	color = newColor;
-	    	maxSpeed = newMaxSpeed;
-	    	price = newPrice;
-	    	// 초기값 받아오기 위해서
-	    }
+	    
 
-    public String getCompany() {
+    public Car2(String company, String model, String color, int maxSpeed,
+			int price) {
+		super();
+		this.company = company;
+		this.model = model;
+		this.color = color;
+		this.maxSpeed = maxSpeed;
+		this.price = price;
+	}
+
+
+
+	public String getCompany() {
         
         return company;
     }
