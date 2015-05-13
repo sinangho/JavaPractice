@@ -35,11 +35,21 @@ public class Score {
 		StringBuilder str = new StringBuilder();
 		
 		str.append("<< 점수 출력 >>\n");
-		str.append("국어 점수 : " + Kor + "점");
-		str.append("\n수학 점수 : " + Math + "점");
-		str.append("\n영어 점수 : " + Eng + "점");
-		str.append("\n총점 : " + T + "점");
-		str.append("\n평균 : " + String.format("%.1f", (float)T/3) + "점");
+		str.append("국어 점수 : ");
+		str.append(Kor);
+		str.append("점");
+		str.append("\n수학 점수 : ");
+		str.append(Math);
+		str.append("점");
+		str.append("\n영어 점수 : ");
+		str.append(Eng);
+		str.append("점");
+		str.append("\n총점 : ");
+		str.append(T);
+		str.append("점");
+		str.append("\n평균 : ");
+		str.append(String.format("%.1f", (float)T/3));
+		str.append("점");
 		
 		System.out.println(str);
 	}
