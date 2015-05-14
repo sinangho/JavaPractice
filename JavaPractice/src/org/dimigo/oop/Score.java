@@ -52,6 +52,8 @@ public class Score {
 		str.append("점");
 		
 		System.out.println(str);
+		
+		sc.close();
 	}
 
 }
