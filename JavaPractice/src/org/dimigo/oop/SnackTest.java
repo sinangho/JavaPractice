@@ -17,10 +17,7 @@ package org.dimigo.oop;
  * @version         : 1.0
  */
 public class SnackTest {
-
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args) {
 		
 		Snack[] s = new Snack[] { new Snack("새우깡", "농심", 1100, 2), 
