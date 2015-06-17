@@ -21,11 +21,16 @@ public class PiggyBank {
 	private static int balance = 0;
 	
 	public static void putMoney(FamilyMember member, int amount) {
-		System.out.println(member.getMemberName() + amount + "원 넣음");
+		System.out.println(member.getMemberName() + " " + amount + "원 넣음");
 		balance += amount;	
 	}
 	
 	public static void printBalance() {
 		System.out.println("\n돼지저금통 총 금액 : " + balance + "\n");
+	}
+	
+	public static void stealMoney(FamilyMember member, int money) {
+		System.out.println(member.getMemberName() + " " + money + "원 훔쳐감");
+		balance -= money;
 	}
 }

@@ -40,6 +40,10 @@ public class PiggyBankTest {
 		PiggyBank.putMoney(i, 1000);
 		
 		PiggyBank.printBalance();
+		
+		PiggyBank.stealMoney(brother, 2000);
+		
+		PiggyBank.printBalance();
 	}
 
 }
