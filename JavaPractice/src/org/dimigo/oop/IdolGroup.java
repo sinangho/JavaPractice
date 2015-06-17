@@ -23,10 +23,10 @@ public class IdolGroup {
 	 */
 	public static void main(String[] args) {
 		
-		String[] idolGroup = new String[]{ "빅뱅", "2NE1", "걸스데이"};
+		String[] idolGroup = new String[]{ "빅뱅", "AOA", "걸스데이"};
 		String[][] members = new String[][]{
 				{"GD", "태양", "대성", "탑", "승리"},
-				{"CL", "산다라박", "박봄", "민지"},
+				{"지민", "초아", "유나", "유경", "혜정", "민아", "설현", "찬미"},
 				{"유라", "소진", "민아", "혜리", "그 외"}
 				};
 		
@@ -38,5 +38,4 @@ public class IdolGroup {
 			System.out.println();
 		}
 	}
-
 }
