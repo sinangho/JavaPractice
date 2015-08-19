@@ -30,7 +30,15 @@ public class PiggyBank {
 	}
 	
 	public static void stealMoney(FamilyMember member, int money) {
-		System.out.println(member.getMemberName() + " " + money + "원 훔쳐감");
+		
+		if(balance < money) {
+			System.err.println("야생의 " + member.getMemberName() + " 이(가) 나타났다!");
+			System.out.println(member.getMemberName() + " 은(는) 돈을 훔치는데 실패했다!");
+		}
+		
+		else {
+		System.out.println(member.getMemberName() + " 이(가) " + money + "원을 훔치는데 성공했다!");
 		balance -= money;
+		}
 	}
 }
