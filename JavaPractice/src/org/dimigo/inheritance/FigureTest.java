@@ -44,6 +44,10 @@ public class FigureTest {
 		c.moveFigure(5, 5);
 		t.moveFigure(5, 5);
 		r.moveFigure(5, 5);
+	
+		c.printCenter();
+		t.printCenter();
+		r.printCenter();
 	}
 
 }

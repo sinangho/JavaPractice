@@ -40,8 +40,4 @@ public class Circle extends Figure {
 		System.out.print("원 ");
 		super.printCenter();
 	}
-	protected void moveFigure(int x, int y) {
-		System.out.print("원 ");
-		super.moveFigure(x, y);
-	}
 }

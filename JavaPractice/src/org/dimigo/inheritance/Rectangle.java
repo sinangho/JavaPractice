@@ -41,9 +41,4 @@ public class Rectangle extends Figure {
 		System.out.print("사각형 ");
 		super.printCenter();
 	}
-	
-	protected void moveFigure(int x, int y) {
-		System.out.print("사각형 ");
-		super.moveFigure(x, y);
-	}
 }

@@ -38,6 +38,5 @@ public class Figure {
 //		System.out.println("-- 중심좌표 이동 (");
 		this.centerX += x;
 		this.centerY += y;
-		System.out.println("중심좌표 : (" + centerX + ", " + centerY + ")");
 	}
 }
