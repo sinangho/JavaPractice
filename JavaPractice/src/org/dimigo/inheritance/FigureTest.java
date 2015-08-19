@@ -23,14 +23,14 @@ public class FigureTest {
 	 */
 	public static void main(String[] args) {
 		
-		Figure f = new Figure(0, 0);
+		
 		Circle c = new Circle(5);
 		Rectangle r = new Rectangle(20, 20, 8, 5);
 		Triangle t = new Triangle(10, 10, 4, 10);
 		
-		System.out.println("원의 넓이 : " + c.calcArea());
-		System.out.println("삼각형 넓이 : " + t.calcArea());
-		System.out.println("사각형 넓이 : " + r.calcArea());
+		System.out.println("원의 넓이 : " + String.format("%.1f", c.calcArea()));
+		System.out.println("삼각형 넓이 : " + String.format("%.1f", t.calcArea()));
+		System.out.println("사각형 넓이 : " + String.format("%.1f", r.calcArea()));
 		System.out.println();
 		
 		c.printCenter();
