@@ -32,7 +32,7 @@ public class SmartPhoneTest {
 			System.out.println(phone[i].toString());
 			phone[i].turnOn();
 			phone[i].pay();
-			phone[i].useSpecial(phone[i]);
+			phone[i].useSpecial();
 			phone[i].turnOff();
 			System.out.println();
 		}

@@ -42,17 +42,15 @@ public class SmartPhone {
 		System.out.println("결제합니다.");
 	}
 	
-	public void useSpecial(SmartPhone phone) {
+	public void useSpecial() {
 		
-		
-		
-		if( phone instanceof IPhone) {
-			IPhone i = (IPhone) phone;
+		if( this instanceof IPhone) {
+			IPhone i = (IPhone) this;
 			i.useAirDrop();
 		}
 		
-		else if( phone instanceof Galaxy) {
-			Galaxy g = (Galaxy) phone;
+		else if( this instanceof Galaxy) {
+			Galaxy g = (Galaxy) this;
 			g.useWirelessCharging();
 		}
 		
