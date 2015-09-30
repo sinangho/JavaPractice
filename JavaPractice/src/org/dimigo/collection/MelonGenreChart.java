@@ -54,8 +54,8 @@ public class MelonGenreChart {
 		printMap(map);
 		
 		System.out.println("-------- << 전체 리스트 삭제 >> --------");
-		ballad.clear();
-		dance.clear();
+//		ballad.clear();
+//		dance.clear();
 		map.clear();
 		printMap(map);
 	}
