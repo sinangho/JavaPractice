@@ -27,24 +27,23 @@ public class SaveImageFromUrl {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
+
 		String imageUrl = "https://lh4.googleusercontent.com/-v0soe-ievYE/AAAAAAAAAAI/AAAAAAAAAAA/OixOH_h84Po/s0-c-k-no-ns/photo.jpg";
-		
+
 		try {
 			URL url = new URL(imageUrl);
-			
-			try(InputStream is = url.openStream();
-				OutputStream os = new FileOutputStream("files/image.png")) {
-				
+
+			try (InputStream is = url.openStream(); OutputStream os = new FileOutputStream("files/image.png")) {
+
 				int result;
 				byte[] buf = new byte[100];
-				
-				while( (result = is.read(buf)) != -1 ) {
+
+				while ((result = is.read(buf)) != -1) {
 					os.write(buf, 0, result);
 				}
-				
+
 				System.out.println("success");
-				
+
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
