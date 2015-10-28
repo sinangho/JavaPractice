@@ -28,7 +28,7 @@ public class SaveImageFromUrl {
 	 */
 	public static void main(String[] args) {
 		
-		String imageUrl = "https://static.dimigo.in/img/logobeta.png";
+		String imageUrl = "https://lh4.googleusercontent.com/-v0soe-ievYE/AAAAAAAAAAI/AAAAAAAAAAA/OixOH_h84Po/s0-c-k-no-ns/photo.jpg";
 		
 		try {
 			URL url = new URL(imageUrl);
